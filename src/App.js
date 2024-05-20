@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React, { useState, useEffect } from 'react';
+import SplashScreen from './components/splashScreen';
+import MainApp from './components/Main'; // Your main app component
+import SplashScreen1Event from './components/SplashScreen1Event';
+import LandingPage from './components/LandingPage';
+import LandingPageComponent from './components/LandingPageCollections';
 
 function App() {
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <SplashScreen1Event /> */}
+      {/* <LandingPage /> */}
+      <MainApp />
     </div>
   );
 }
 
 export default App;
+

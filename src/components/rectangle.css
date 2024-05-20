@@ -1,0 +1,34 @@
+.rectangle-component {
+  width: 100%;
+  display: flex;
+  
+  align-items: center;
+  position: absolute;
+  left: 20%;
+  top: -50%;
+  height: 100%;
+}
+
+.rectangle {
+  display: flex;
+  align-items: center;
+  background-color: #B9A0FF;
+  padding: 10px;
+  transform: rotate(90deg); /* Rotate the rectangle */
+  transform-origin: left top; /* Rotate around the top-left corner */
+}
+
+.rectangle span {
+  font-family: 'Krona One', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  white-space: nowrap; /* Prevent text from wrapping */
+  margin: 0 10px; /* Add some space around the text */
+}
+
+.starimg {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  
+}

@@ -1,0 +1,150 @@
+.logoimg {
+    width: 48px;
+    height: 39.22px;
+    gap: 0px;
+    border: 0.32px solid transparent; /* Fixing the border property syntax */
+    opacity: 1; /* To make the image visible, use opacity: 1; */
+    transform: rotate(-16deg); /* Rotate the image by -16 degrees */
+}
+.img1 {
+    
+    width: 371px;
+height: 61px;
+top: 279px;
+left: 336px;
+gap: 0px;
+opacity: 0px;
+
+}
+.img7-and-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+.img1-box, .img2-box,.img3-box,  .img5-box{
+    display: inline-block;
+    vertical-align: middle;
+}
+.img2 {
+    width: 539px;
+height: 74px;
+top: 377px;
+left: 680px;
+gap: 0px;
+opacity: 0px;
+
+}
+.img3 {
+    width: 260px;
+height: 74px;
+top: 500px;
+left: 221px;
+gap: 0px;
+opacity: 0px;
+
+}
+.img4{
+    width: 167px;
+height: 74px;
+top: 500px;
+left: 822px;
+gap: 0px;
+opacity: 0px;
+
+}
+.img5{
+    width: 299px;
+height: 74px;
+top: 609px;
+left: 465px;
+gap: 0px;
+opacity: 0px;
+
+}
+.img6{
+    width: 137px;
+height: 74px;
+top: 609px;
+left: 1082px;
+gap: 0px;
+opacity: 0px;
+
+}
+.img7{
+    width: 158px;
+height: 74px;
+top: 725px;
+left: 221px;
+gap: 0px;
+opacity: 0px;
+
+}
+.img8{
+    width: 151px;
+height: 74px;
+top: 726px;
+left: 528px;
+gap: 0px;
+opacity: 0px;
+
+}
+.splash-screen1-event-container {
+    
+    width: 1440px;
+height: 1080px;
+top: 2632px;
+left: 595px;
+
+background-color: #FFF4DF;
+;
+}
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.splash-screen1-event-logo {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 406px;
+height: 50.94px;
+left: 21px;
+gap: 20px;
+
+
+}
+
+.splash-screen1-event-logo-text {
+    width: 139px;
+height: 31px;
+gap: 0px;
+opacity: 0px;
+font-family: Space Grotesk;
+font-size: 44px;
+font-weight: 700;
+line-height: 56.14px;
+text-align: left;
+text-decoration-color: black;
+}
+
+.splash-screen1-event-group-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 64px; 
+    width: 1009px;
+height: 521px;
+top: 279px;
+left: 216px;
+
+
+}
+
+
+.splash-screen1-event-group-container span {
+    font-style: lexend;
+    font-weight: 500;
+}
